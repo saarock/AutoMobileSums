@@ -134,9 +134,11 @@ export default function App() {
         <div className="container mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white rounded-xl p-3 shadow-lg">
-                <span className="block font-black text-xl tracking-tight">ALFA</span>
-              </div>
+              {/* <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white rounded-xl p-3 shadow-lg"> */}
+                {/* <span className="block font-black text-xl tracking-tight">ALFA</span> */}
+                <img src="./logo.jpeg" alt="logo" width={50}/>
+            
+              {/* </div> */}
               <div>
                 <h1 className="text-gray-900 font-black tracking-tight">Alfa Automotive</h1>
                 <p className="text-gray-500 text-xs tracking-wide">Mobile Mechanics Canberra</p>
@@ -603,9 +605,11 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-12 lg:gap-16">
             <div className="space-y-6">
               <div className="flex items-center gap-4">
-                <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white rounded-xl p-3 font-black shadow-lg">
-                  <span className="block text-xl tracking-tight">ALFA</span>
-                </div>
+                {/* <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white rounded-xl p-3 font-black shadow-lg"> */}
+                  {/* <span className="block text-xl tracking-tight">ALFA</span> */}
+                {/* </div> */}
+                <img src="./logo.jpeg" alt="logo" width={50}/>
+                
                 <div>
                   <h3 className="text-white font-black">Alfa Automotive</h3>
                   <p className="text-gray-400 text-sm">Mobile Mechanics</p>

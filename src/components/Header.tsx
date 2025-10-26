@@ -39,6 +39,7 @@ export function Header() {
           </div>
         </div>
       </div>
+      =
 
       {/* Main Header */}
       <header className="bg-white border-b border-gray-100 sticky top-0 z-50 backdrop-blur-sm bg-white/95">
@@ -47,7 +48,7 @@ export function Header() {
             {/* Logo */}
             <div className="flex items-center gap-3">
               <div className="bg-red-500 text-white rounded-lg p-2 font-bold text-xl">
-                ALFA
+                <img src="./logo.jpeg" alt="logo" />
               </div>
               <div>
                 <h1 className="text-slate-900 text-xl font-bold">Alfa Automotive</h1>
