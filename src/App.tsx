@@ -111,7 +111,7 @@ export default function App() {
     },
     {
       question: "Do you offer same-day service?",
-      answer: "Yes! We offer same-day service for most repairs and maintenance. Emergency breakdown service is available 24/7 with typical response times under 30 minutes."
+      answer: "Yes! We offer same-day service for most repairs and maintenance. Emergency breakdown service isavailable till late hours for emergency services with typical response times under 30 minutes."
     },
     {
       question: "Are you licensed and insured?",
